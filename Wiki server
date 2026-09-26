@@ -1,0 +1,390 @@
+COMPREHENSIVE MASTER COMPENDIUM FOR FIH COMMUNITY 
+This document serves as the comprehensive technical standard, administration manual, and official operational guide for the entire FIH Community ecosystem. This dossier has been fully updated and expanded to detail all sub-systems of the Web Portal architecture, the Geometry Dash level system (Fish List), server governance regulations, the TeMoney economy, the jail system, and the Zombie Apocalypse survival game module.
+1. ECOSYSTEM OVERVIEW & WEB PORTAL ARCHITECTURE
+The FIH Community ecosystem operates on an integrated platform for players, level creators, verifiers, and Geometry Dash community members. The system consists of two core operational layers:
+	•	FIH Web Portal (Baseline v2.4.1): A Single Page Application (SPA) built on React 18, Tailwind CSS, and local state management (localStorage storing fih_submissions and fih_collabs). The website is responsible for managing level verification submissions, creator profiles, collaboration tools, the Helper search network, and hall-of-fame leaderboards.
+	•	FIH AGENT Discord Bot (Coded by Jery - SEF Team): A server management automation bot written in Python (discord.py library). The bot handles economy management, stock/crypto markets, Black Cat Loans credit, moderation processing, automated correctional jail tasks, and the Zombie survival game module.
+Web Portal Functional Modules (v2.4.1)
+	•	Dashboard (Home): Integrates a global search bar for players, levels, or collab projects. Displays a list of recently verified levels with embedded YouTube preview videos, level IDs, estimated difficulties, and reward points (e.g., Oceanic Void - ID: 1012345, 500 pts; Cyber Pulse - ID: 1056789, 350 pts; Glacial Peak - ID: 1098765, 480 pts). The Main Server Spotlight section honors the Rank #01 project (The Eternal Void). The User Statistics corner tracks Total Points and total verified levels.
+	•	Community Portal (Join Discord): Provides official community conduct rules and a direct invitation link to join the Discord server.
+	•	Submit Level: Geometry Dash achievement submission form including fields: Level Name, Level ID, Estimated Difficulty (Easy Demon to Extreme Demon), Proof Video URL, and Creator Notes.
+	•	Creator List: Hall of Fame honoring top builders, decorators, and optimizers. Examples: AquaFlow (Master Decorator - 1250 PTS), NeonStrike (Layout King - 980 PTS), Xenon (Lead Optimizer - 750 PTS).
+	•	Collaboration Hub (Collab Host): Dual-view mode allowing users to browse open collab slots or use a host approval dashboard (Accept/Reject).
+	•	Find Helper Network: A noticeboard connecting creators with specialists across 3 roles: Decorator, Playtester, and Builder.
+	•	Fish List & Other List: The official level ranking system categorized by difficulty and prestige points.
+2. SERVER ARCHITECTURE & ROLE HIERARCHY
+Server roles are structured hierarchically to clearly define administrative authority, community progression, and automated entities.
+Executive & Administrative Roles
+	•	BIG FISH: Reserved exclusively for the Server Owner. Holds absolute authority over all server configurations and policies.
+	•	FIRE: High-level executive role with broad administrative privileges across all channels.
+	•	SHARK: Reserved for List Moderators (@SHARK). Responsible for maintaining, verifying, and updating the official level list.
+	•	DOLPHIN: Reserved for Chat Moderators (@dophin). Ensures chat room order, enforces rules, and handles infractions.
+	•	Content Creator: Dedicated to verified media content creators.
+	•	GOD OF CAT / SPACE EMPIRE [VER 0.1] / CLICK INC MOD: Special honorary roles and sub-system administration roles.
+Progression & Difficulty Roles
+	•	FLYING FISH: Awarded upon successfully verifying a RED FISH level.
+	•	DEAD FISH: Awarded upon successfully verifying a DEFEATED FISH level.
+	•	SPACE EMPIRE [VER 0.1]: The highest achievement role, awarded upon verifying a DEATH SPACE level.
+	•	THE BEGINNING: Foundational role awarded for completing the Stereo Madness challenge.
+	•	FISH FRIEND / LITTLE FISH / Mini fish: Engagement tiers ranging from new members (Mini fish) to active community members.
+Role Acquisition Matrix
+Acquisition Method
+Available Roles
+Requirements & Process
+Onboarding
+Mini fish, Việt Nam, ENGLISH, ENGLISH II
+Automatically assigned or selected upon joining the server.
+Self-Assignment Channels
+OSU MANIA, DEMON GRIND, LEVEL CREATOR, DECORATING, FIH LIST, COLAB roles
+Self-selected in role selection channels based on interest.
+TeMoney Shop
+VIP Member (5,000 TeMoney), Trendsetter (1,500 TeMoney), Rich Kid (3,000 TeMoney)
+Purchased via /buyrole <item_key> command.
+Verification Achievements
+@SPACE EMPIRE [VER 0.1], @DEAD FISH, @FLYING FISH, @THE BEGINNING
+Complete verification of corresponding top-tier levels.
+Staff Applications
+DOLPHIN (Chat Mod), SHARK (List Mod)
+Apply during official recruitment drives.
+Jail State
+Jail Role
+Automatically assigned upon receiving 15 warnings or being jailed via /jail command.
+3. VERIFICATION PROCESS & FISH LIST LEADERBOARD
+Technical Requirements for Submissions
+	•	Unedited Video: Must be continuously recorded from the start until the completion screen. Video editing, splicing, fast-forwarding, or post-processing tampering is strictly prohibited.
+	•	Live Cable Audio Capture: Must directly record real physical click/tap sounds. Synthesized or simulated click audio will result in immediate rejection.
+	•	Raw Footage & FPS: Top-tier level runs require a Raw Footage link (minimum 30 FPS) uploaded to Google Drive/Mega, with an on-screen FPS counter enabled.
+	•	Valid Clients: Only Geode and Mega Hack (QoL mods) are accepted. Any use of Noclip, Auto-play, or Speedhack will result in a permanent ban.
+Confidential Fake Verification Policy
+	•	Submission Safety: Players submitting invalid or fake verification runs will only have their level submission rejected, without being banned from the server.
+	•	Maximum Confidentiality: All chat data, raw files, and internal discussions regarding rejected submissions are kept 100% confidential.
+	•	Prohibition of Leaks: Staff (@dophin, @SHARK) are strictly prohibited from taking screenshots or ridiculing fake submissions. Violations will result in immediate revocation of staff privileges.
+Official Fish List Leaderboard (Official YouTube Channel: @Verybigfishintheworld)
+Rank
+Level Name
+Creator / Verifier
+Level ID
+Difficulty
+Reward / Role
+Reference Video
+Top 1
+DEATH SPACE
+Verified by JEF
+147242375
+Near Top 1 (Pointercrate)
+Role: @SPACE EMPIRE [VER 0.1]
+YouTube Shorts
+Top 2
+DEFEATED FISH
+Verified by Supper Fish
+146685653
+High Extreme Demon
+Role: @DEAD FISH
+YouTube Shorts
+Top 3
+RED FISH
+Verified by Supperfish
+146419394
+Extreme Demon
+Role: @FLYING FISH
+YouTube Shorts
+Top 4
+CORNFIELD CHASE
+Verified by JEF
+148393443
+Medium Extreme Demon
+Note: "they not bring us here to change the past"
+YouTube Video
+Top 5
+ROFISH BY JEF
+Verified by Fish
+147089282
+High Tier Extreme Demon
+Note: "Robo trai cay"
+YouTube Shorts
+Top 6
+RAGANWAVE BY FISH
+Verified by Jery
+147651904
+Extreme Demon
+Note: "pro wave"
+YouTube Shorts
+Top 7
+WAVE SO HARD
+Verified by Fish
+146764711
+Extreme Demon
+Note: "singing it LOL"
+YouTube Shorts
+Top 8
+BAD MEMORY BY BIG BRAIN
+Verified by Supperfish
+146836512
+Extreme Demon
+Note: "+16 gb"
+YouTube Shorts
+Top 9
+RED CHALLENGE BY SUSSYBUCAC
+Verified by SussyBucac
+146827852
+High Medium Demon
+N/A
+YouTube Shorts
+Top 10
+ROBOT CHALLENGE
+Verified by SussyBucac
+130080679
+Low Extreme Demon
+Note: "beat kệ mẹ nó"
+YouTube Shorts
+Top 11
+NEFFED UNKNOW BY SKIBIDIKING
+Verified by Fish
+147045377
+Hard Demon (PC)
+N/A
+YouTube Shorts
+Top 12
+SHIP CHALLENGE
+Verified by Loupki
+143601336
+Low Easy Demon
+Note: "haha x4"
+YouTube Shorts
+Top 13
+LITTLE CHALLENGE
+Verified by SussyBucac
+140384773
+Low Easy Demon
+Note: "beat kệ mẹ nó x2"
+YouTube Shorts
+Special
+Stereo Madness (Main Level)
+GD Lite by RobTop
+In-Game
+Main Level
+Role: @THE BEGINNING
+N/A
+Special
+Future Funk Race Event
+Competition
+N/A
+Event Race
+400 Mythic Chests
+N/A
+Important Note: All the above levels were created specifically by the FIH GD Community. If any level receives an official rating from RobTop in-game, the system will announce it and transfer the level to the Rated List!
+4. FOUR-WAY GOVERNANCE & FIH AGENT BOT OPERATIONS (JERY CODED)
+The FIH AGENT Bot manages the entire economy, jail discipline, and secondary mini-game systems.
+A. TeMoney Economy & Stock Trading Engine
+Every new member receives an initial starting balance of 1,000 TeMoney.
+	•	Asset Market (/market): Trades 5 asset tickers: MOON (MoonRock Coin), DOGE2 (Doge Squared), SRVX (Server Index), MEME (MemeCorp Shares), GOLD (Digital Gold).
+	•	Automated Fluctuations: Asset prices update automatically every 60 seconds. When market rumor events occur, the bot triggers market spike or crash announcements.
+	•	Dividends & Fees: Dividend-paying assets (MOON, SRVX, GOLD) automatically pay out interest every 24 hours. The buy transaction fee is 1.5%.
+	•	Black Cat Credit Loans (/borrow): Emergency loans with an interest rate of 5%/day. Overdue loans not paid off via /repay will result in automatic imprisonment with mandatory debt-clearance tasks.
+B. Warning System, Jail & Rehabilitation Labor (Jail System)
+Members accumulating 15 warnings (/warn) are automatically placed into Jail state. Inmates have their roles temporarily stripped and must complete rehabilitation assignments to be released:
+	•	Rehabilitation Typing (clean): Type the word clean the required number of times.
+	•	Puzzle Challenges (!puzzle, !trivia, !answer): Correctly answer mathematical or trivia questions.
+	•	Typing Speed Test (!type): Accurately transcribe 100% of the assigned text snippet.
+	•	Geometry Dash Level Beat Challenge (!gdlevel): The bot randomly assigns a GD level. The player posts a completion screenshot in the jail channel, and a Moderator verifies it to release them via a ✅ reaction.
+	•	Credit Repayment (/repay): Pay off the full outstanding balance of Black Cat Loans.
+	•	Custom Admin Jobs: Administrators create custom tasks via /addjob and approve them using /completejob.
+5. ZOMBIE SURVIVAL GAME MODULE (ZOMBIE APOCALYPSE ENGINE)
+The Zombie survival mini-game module integrated directly into FIH AGENT Bot delivers a dramatic roleplaying survival experience.
+┌────────────────────────────────────────────────────────┐
+│               ZOMBIE APOCALYPSE ENGINE                 │
+├──────────────────────────┬─────────────────────────────┤
+│  8 ACTIVE MAPS           │  8 EXPLORABLE FACILITIES    │
+│  - Downtown              │  - Hospital                 │
+│  - Residential District  │  - Pharmacy                 │
+│  - Industrial Zone       │  - Supermarket              │
+│  - Farmland Outskirts    │  - Hotel                    │
+│  - Old Town              │  - Police Station           │
+│  - Harbor                │  - Gas Station              │
+│  - Deep Forest           │  - Warehouse                │
+│  - Highway               │  - Farm                     │
+└──────────────────────────┴─────────────────────────────┘
+
+Game Administration & Setup
+	•	System Setup (/zsetup): Administrators use this command to automatically generate the Category "🧟 ZOMBIE APOCALYPSE", create the "Survivor" role, and set up Map roles and dedicated chat channels for each map.
+	•	Game Reset (/zresetgame): Wipes all survival channels and roles to reset the game environment.
+	•	Join Survival (/zjoin): Participating members are randomly assigned to a starting map.
+Survival Metrics & Physical Condition
+The system tracks detailed survival metrics via the /zstatus command:
+	•	Overall Status: Normal, Injured, Badly Injured, Zombified.
+	•	Nutrition & Energy:
+	◦	Hunger: 0 - 100.
+	◦	Thirst: 0 - 100.
+	◦	Stamina: 0 - 10.
+	◦	Rested: Fatigue levels from 0 - 5.
+	•	Bone Injury:
+	◦	Level 0: No injury.
+	◦	Level 1: Mild hairline fracture.
+	◦	Level 2: Severe bone fracture (Cannot move independently; must rely on a teammate carrying them via the /zcarry command).
+	•	Daily Decay Loop: The bot automatically deducts Hunger/Thirst and increases fatigue daily. If Hunger or Thirst drops to 0, overall health drops by 1 tier.
+Zombie Raid Engine
+When moving or exploring facilities (/zmgo), players have a chance to encounter a Zombie Raid containing random zombie types:
+	•	Zombie Archetypes:
+	◦	Normal: Initial distance 70 - 100m.
+	◦	Speed: Initial distance 20 - 30m (Fast movement).
+	◦	Bomb: Initial distance 40 - 50m (High detection rate).
+	◦	Tank: Initial distance 50 - 70m (Massive health pool).
+	•	Interactive Combat Buttons:
+	◦	Fight: Calculates attack power based on the best weapon in inventory + random modifier. Reduces HP of the nearest Zombie.
+	◦	Retreat: Attempts to escape (Success chance drops significantly if Speed Zombies are present).
+	◦	Hide: Takes cover in place to wait for the zombie horde to pass.
+	•	Cornered State & Cure Serum:
+	◦	If Zombies reach a distance of 0m or if 3 Raid turns elapse without defeating them all, the player becomes cornered.
+	◦	If possessing Experimental Cure Serum: The system allows the user to consume the Serum to escape or take a high-stakes gamble.
+	◦	If lacking Serum: The player is transformed into a Zombie (Zombified), dropping random items from their inventory.
+Scouting, PvP & Trading
+	•	Facility Scouting (/zscan): Costs 0.5 Stamina to scan facility safety with 70% accuracy before entering to loot.
+	•	Zombie-Dex (/zdex): Logs encountered and unlocked Zombie variants.
+	•	Direct Trading: Players trade items directly via interactive Accept/Decline button UI with a 60-second timeout.
+	•	PvP Combat (/zpvp): Allows attacking other players in the same location (Requires both players to have PvP enabled; command cooldown is 10 minutes). The loser's health status drops by 1 tier.
+6. MASTER COMMAND REFERENCE MANUAL
+Sub-system
+Chat / Slash Command
+Syntax / Example
+Description
+Economy
+/balance
+/balance
+Check current TeMoney wallet balance.
+Economy
+/leaderboard
+/leaderboard
+View the server wealth leaderboard.
+Market
+/market
+/market
+Real-time price board for stock/crypto assets.
+Market
+/buy
+/buy asset:MOON amount:10
+Purchase assets (incurs a 1.5% fee).
+Market
+/sell
+/sell asset:GOLD amount:5
+Sell assets at market price.
+Market
+/portfolio
+/portfolio
+View investment portfolio and profit/loss (P/L).
+Market
+/history
+/history
+View financial transaction history.
+Shop
+/shop
+/shop
+Open the catalog of roles purchasable with TeMoney.
+Shop
+/buyrole
+/buyrole item_key:vip
+Purchase and automatically assign a shop role.
+Credit
+/borrow
+/borrow amount:500
+Borrow money from Black Cat Loans (5%/day interest).
+Credit
+/repay
+/repay amount:500
+Repay outstanding loan balance.
+Jail Job
+clean
+clean
+Advance cleaning progress while in jail.
+Jail Job
+!puzzle
+!puzzle
+Request a math/logic puzzle question.
+Jail Job
+!trivia
+!trivia
+Request a trivia question.
+Jail Job
+!answer
+!answer <answer>
+Answer a puzzle or trivia question.
+Jail Job
+!type
+!type
+Receive a text snippet for a speed-typing test.
+Jail Job
+!gdlevel
+!gdlevel
+Receive a GD challenge level to earn release.
+Moderation
+/warn
+/warn user:@Member reason:Spam
+Warn a member (15 warnings automatically triggers jail).
+Moderation
+/warns
+/warns user:@Member
+View a player's warning history.
+Moderation
+/clearwarns
+/clearwarns user:@Member
+Clear all warnings for a player.
+Moderation
+/jail
+/jail user:@Member job:clean time:0
+Jail a player with a specified assignment.
+Moderation
+/unjail
+/unjail user:@Member
+Release a player from jail and restore roles.
+Moderation
+/completejob
+/completejob user:@Member
+Moderator approves completion of a custom jail task.
+Admin
+/setjail
+/setjail role:@Jail channel:#jail warn_limit:15
+Configure jail channel, jail role, and warning limit.
+Admin
+/addjob
+/addjob job_key:essay label:Essay kind:manual
+Create a new custom manual jail task.
+Zombie
+/zsetup
+/zsetup
+Initialize channel and role infrastructure for Zombie game.
+Zombie
+/zresetgame
+/zresetgame
+Reset and wipe all Zombie game channel/role data.
+Zombie
+/zjoin
+/zjoin
+Register to enter the Zombie survival world.
+Zombie
+/zstatus
+/zstatus
+Check survival metrics, status, and injuries.
+Zombie
+/zmgo
+/zmgo
+Travel to another map or explore a facility.
+Zombie
+/zscan
+/zscan
+Recon facility safety before entering.
+Zombie
+/zcarry
+/zcarry user:@Member
+Carry a severely fractured teammate.
+Zombie
+/zdex
+/zdex
+View unlocked/encountered Zombie variants log.
+Zombie
+/zpvp
+/zpvp action:attack user:@Member
+Toggle PvP or attack a player in the same location.
+
+
+
+
+
