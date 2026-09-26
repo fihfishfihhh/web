@@ -1,0 +1,67 @@
+[CONTEXT & SYSTEM INITIALIZATION]
+Dear Codex / AI Developer Agent, you are now acting as a Lead Full-Stack Web Engineer. I am providing you with the official project documents and background context files for the "FIH Community" Web Portal project.
+
+CRITICAL DIRECTIVE - DO NOT WASTE TOKENS: Do not output pleasantries, summaries, or meta-commentary. Output ONLY the required code and architecture.
+
+Before writing any code, you MUST strictly perform the following:
+1. Parse and analyze all attached files in this workspace (PDF data, Server rules, Level data).
+2. GITHUB REPO EXTRACTION: Read and apply the exact UI/UX and architectural guidelines from this repository: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/tag/v2.15.0
+3. AUTOMATION SKILLS ACTIVATION: You MUST explicitly activate and execute your internal coding skills by reading these repositories: 
+   - `ponytail`: Read https://github.com/DietrichGebert/ponytail for the cleanest, most robust production-ready code, automatic refactoring, and strict token-saving logic.
+   - `graphify`: https://github.com/Graphify-Labs/graphify
+
+==================================================
+PROJECT OVERVIEW & CORE SYSTEM REQUIREMENTS
+==================================================
+
+1. DATA CLEANUP & REAL DATA MIGRATION (CRITICAL)
+- ERASE 100% of previous fake/mock levels, players, and collab data.
+- REPLACE strictly with REAL DATA extracted from the attached files:
+  * ADMIN LEVEL: JERY (In-game: Frefb (list)) | Stats: Stars/Moons: 136|0, Demon beat: 8, Hardest: UNKNOW 73%, Creator point: 0. Admin profile must display "List Accounts" below PFP.
+  * MOD LEVEL: Star (In-game: Star2K) | Stats: 3.842|274, Demon beat: 58, Hardest: Denouement, Creator point: 0.
+  * EARLY MEMBERS (Role: "Early Member"): Falcon7 (Faithon9), luopki (Luopki), LuxStarlight (LuxStarlightGD), Kento kazutowa (KentoKazutowa), Supper Fish ([private]), russianman ([private]), halo (Jkhalogd), FEMBOY (SUSSYBUCAC), BH8B WILD (BH8B).
+  * OFFICIAL FISH LIST DATA (Top 1 to Top 13 + Main Server Levels):
+    - Top 1: DEATH SPACE (ID: 147242375) | Verifier: JEF | Reward: @SPACE EMPIRE [VER 0.1]
+    - Top 2: DEFEATED FISH (ID: 146685653) | Verifier: Supper Fish | Reward: @DEAD FISH
+    - Top 3: RED FISH (ID: 146419394) | Verifier: Supperfish | Reward: @FLYING FISH
+    - Top 4: CORNFIELD CHASE (ID: 148393443) | Verifier: JEF | Note: "they not bring us here to change the past"
+    - Top 5: ROFISH BY JEF (ID: 147089282) | Verifier: Fish | Note: "Robo trai cay"
+    - Top 6: RAGANWAVE BY FISH (ID: 147651904) | Verifier: Jery | Note: "pro wave"
+    - Top 7: WAVE SO HARD (ID: 146764711) | Verifier: Fish | Note: "singing it LOL"
+    - Top 8: BAD MEMORY BY BIG BRAIN (ID: 146836512) | Verifier: Supperfish | Note: "+16 gb"
+    - Top 9: RED CHALLENGE BY SUSSYBUCAC (ID: 146827852) | Verifier: SussyBucac
+    - Top 10: ROBOT CHALLENGE (ID: 130080679) | Verifier: SussyBucac | Note: "beat kệ mẹ nó"
+    - Top 11: NEFFED UNKNOW BY SKIBIDIKING (ID: 147045377) | Verifier: Fish
+    - Top 12: SHIP CHALLENGE (ID: 143601336) | Verifier: Loupki | Note: "haha x4"
+    - Top 13: LITTLE CHALLENGE (ID: 140384773) | Verifier: SussyBucac | Note: "beat kệ mẹ nó x2"
+    - SPECIAL TOP: STEREO MADNESS (Main Level) | Reward: @THE BEGINNING
+    - RACE EVENT: FUTURE FUNK | Reward: 400 mythic chest
+
+2. MANDATORY FIRST-LOGIN PLAYER FORM & STATS
+- Note on form: "(Note: Nếu mày không thành thật thì con cá không thích mày)"
+- Fields: Player name ("Will name on web !"), User name in game, Star | moon in game, Demon beat, Hardest, Creator point.
+- Weekly update restriction with ban warning for fake stats.
+- Unique web passwords for Early Members + Email Verifier UI. Unlimited PFP changes.
+
+3. UI/UX VISUAL POLISH & ANIMATIONS (VIA GRAFITY)
+- Parallax background fix & semi-transparent slow-floating Geometry Dash icons.
+- Profile Entrance: PFP slides left (`translateX`), stats diagram rises column-by-column (`scaleY` water-level effect), background blurs, badges fade in sequentially.
+- Text Focus Mode: Scroll to text-heavy sections dims level cards (`fade-out line`).
+
+4. ABSOLUTE ADMIN CONTROL PANEL ("GOD MODE FOR JERY")
+- Omnipotent Powers: Create/edit/delete Levels, Players, Collabs. Set Level ID, ownership, and manual List Points. Custom YouTube thumbnails. Full Role/Permissions engine.
+
+5. WIKI, EVENTS & COMMUNITY RATING
+- Wiki/Discord: Integrate TeMoney economy, Jail rules, Zombie mode.
+- Events: Fun Event, Reward Event (Host gives points), Admin Event (Markdown support).
+- Rating: 5-Star system with text, MP4/YouTube proof, and detailed Level Modal (Collab notes, Verifier info, Video links). Bottom multi-language (EN/VN) & theme switcher.
+
+6. ARCHITECTURAL EXECUTION ROADMAP
+Codex, execute exactly ONE phase at a time. Stop and wait for confirmation before moving to the next.
+- PHASE 1 NOW: Core Data Migration (JSON), Authentication Form, & Floating Background UI/UX Setup.
+- Phase 2: Absolute Admin (Jery) Panel & PFP Water-Rise Animations.
+- Phase 3: Event Engine, Feedback & 5-Star Rating System.
+- Phase 4: Advanced Security (Anti-XSS) & Lazy-loading Performance.
+- Phase 5: Final Delivery.
+
+START PHASE 1 IMMEDIATELY. APPLY PONYTAIL AND GRAFITY. NO EXTRA TEXT.
