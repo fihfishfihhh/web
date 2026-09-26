@@ -6,6 +6,3 @@ Phase 1 static portal for the official FIH Fish List. It renders canonical playe
 
 ```sh
 python3 -m http.server 8000
-```
-
-Then open `http://localhost:8000`.
