@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="theme-color" content="#061927">
+  <title>FIH Community — Fish List</title>
+  <link rel="stylesheet" href="public/styles.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"><i>◆</i><i>▲</i><i>●</i><i>✦</i><i>⬟</i></div>
+  <header class="topbar">
+    <a class="brand" href="#top"><span class="brand-mark">F</span><span>FIH <b>COMMUNITY</b></span></a>
+    <nav><a href="#list">Fish List</a><a href="#members">Members</a><a href="#join">Join</a></nav>
+    <button class="nav-cta" data-open-form>Set up profile <span>↗</span></button>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Geometry Dash community · established in the deep</p>
+      <h1>THE <em>FISH</em><br>LIST.</h1>
+      <div class="hero-foot"><p>An official home for FIH-created levels, their verifiers, and the players pushing the list forward.</p><a href="#list" class="text-link">Dive into the rankings <span>↓</span></a></div>
+      <div class="hero-orb"><span>01</span><b>DEATH<br>SPACE</b><small>Top fish</small></div>
+    </section>
+    <section class="ticker"><span>OFFICIAL FIH COMMUNITY</span><i></i><span>13 RANKED LEVELS</span><i></i><span>PLAY FAIR · PLAY DEEP</span><i></i><span>OFFICIAL FIH COMMUNITY</span></section>
+    <section id="list" class="section list-section">
+      <div class="section-head"><div><p class="eyebrow">Official rankings</p><h2>Depth has a<br><em>number.</em></h2></div><p class="head-copy">Levels made for the FIH GD Community server. Select a level to view its verification record.</p></div>
+      <div id="level-list" class="level-list" aria-live="polite"></div>
+    </section>
+    <section class="specials" aria-label="Special levels"><div class="special-card"><span class="special-index">∞</span><div><p>Main level</p><h3>STEREO MADNESS</h3><strong>@THE BEGINNING</strong></div><span class="arrow">↗</span></div><div class="special-card race"><span class="special-index">02</span><div><p>Race event</p><h3>FUTURE FUNK</h3><strong>400 mythic chest</strong></div><span class="arrow">↗</span></div></section>
+    <section id="members" class="section members">
+      <div class="section-head"><div><p class="eyebrow">The community</p><h2>MEET THE<br><em>FISH.</em></h2></div><button class="outline-btn" data-open-form>Join the portal <span>↗</span></button></div>
+      <div id="member-grid" class="member-grid"></div>
+    </section>
+    <section class="admin-showcase" aria-labelledby="admin-title">
+      <div class="profile-intro"><p class="eyebrow">Administrator profile</p><h2 id="admin-title">JERY<br><em>IN COMMAND.</em></h2><p>List owner, record keeper, and administrator of the FIH Community portal.</p><button class="outline-btn" id="open-admin">Open Jery control panel <span>↗</span></button></div>
+      <div class="jery-profile" id="jery-profile"><div class="avatar" aria-hidden="true">J</div><div class="profile-copy"><p class="member-role">Administrator · Frefb (list)</p><h3>JERY</h3><p class="list-label">List Accounts</p><div class="badges"><span>BIG FISH</span><span>LIST ADMIN</span><span>SEF TEAM</span></div></div><div class="stat-water" aria-label="Jery statistics"><div class="water-stat"><i style="--height:30%"></i><b>136</b><span>Stars</span></div><div class="water-stat"><i style="--height:0%"></i><b>0</b><span>Moons</span></div><div class="water-stat"><i style="--height:55%"></i><b>8</b><span>Demons</span></div></div></div>
+    </section>
+    <section id="join" class="join"><p class="eyebrow">New here?</p><h2>MAKE YOUR<br>FIRST SPLASH.</h2><p>Set your public player profile. Your stats are reviewed weekly — honest data keeps the list alive.</p><button class="light-btn" data-open-form>Build my profile <span>→</span></button></section>
+  </main>
+  <footer><span>FIH COMMUNITY · FISH LIST</span><span>PHASE 02 — ADMIN CONTROLS</span><span>2026</span></footer>
+  <dialog id="onboarding" class="form-dialog"><button class="close" aria-label="Close" data-close-form>×</button><div class="form-intro"><p class="eyebrow">Player onboarding</p><h2>YOUR PROFILE<br>STARTS HERE.</h2><p>Enter your actual Geometry Dash stats to become part of the portal.</p></div><form id="profile-form"><p class="form-note">(Note: Nếu mày không thành thật thì con cá không thích mày)</p><label>Player name <small>Will name on web !</small><input name="playerName" required maxlength="40" autocomplete="nickname"></label><label>User name in game<input name="gameUsername" required maxlength="40"></label><div class="form-row"><label>Stars | moons<input name="starsMoons" required placeholder="e.g. 136 | 0" maxlength="30"></label><label>Demon beat<input name="demons" required type="number" min="0" max="9999"></label></div><div class="form-row"><label>Hardest<input name="hardest" required maxlength="80"></label><label>Creator point<input name="creatorPoints" required type="number" min="0" max="9999"></label></div><label class="email">Email verification <small>We will send a verification link.</small><input name="email" type="email" required autocomplete="email"></label><p class="restriction">Stats can be updated once per week. Fake stats can result in a ban from the portal.</p><button class="submit" type="submit">Send verification <span>→</span></button><p id="form-status" role="status"></p></form></dialog>
+  <dialog id="level-modal" class="detail-dialog"><button class="close" aria-label="Close level details" data-close-level>×</button><div id="level-modal-content"></div></dialog>
+  <dialog id="admin-panel" class="admin-dialog"><button class="close" aria-label="Close admin panel" data-close-admin>×</button><div class="admin-heading"><p class="eyebrow">Jery / God mode</p><h2>CONTROL<br>THE CURRENT.</h2><p>Local workspace for managing the portal preview. Changes are saved only in this browser.</p></div><div class="admin-body"><div class="admin-tabs"><button class="tab active" data-admin-view="levels">Levels</button><button class="tab" data-admin-view="players">Players</button><button class="tab" data-admin-view="collabs">Collabs</button></div><div id="admin-content"></div></div></dialog>
+  <script src="public/app.js"></script>
+</body>
+</html>

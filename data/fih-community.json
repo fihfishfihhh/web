@@ -1,0 +1,32 @@
+{
+  "community": "FIH Community",
+  "players": [
+    {"name":"JERY","gameUsername":"Frefb (list)","role":"Admin","stars":136,"moons":0,"demons":8,"hardest":"UNKNOW 73%","creatorPoints":0,"profileLabel":"List Accounts"},
+    {"name":"Star","gameUsername":"Star2K","role":"Moderator","stars":3842,"moons":274,"demons":58,"hardest":"Denouement","creatorPoints":0},
+    {"name":"Falcon7","gameUsername":"Faithon9","role":"Early Member","stars":281,"moons":178,"demons":18,"hardest":"-Sirius- 0%-60%","creatorPoints":0},
+    {"name":"luopki","gameUsername":"Luopki","role":"Early Member","stars":360,"moons":17,"demons":24,"hardest":"55-100 brutal","creatorPoints":0},
+    {"name":"LuxStarlight","gameUsername":"LuxStarlightGD","role":"Early Member","stars":967,"moons":100,"demons":20,"hardest":"Game Time","creatorPoints":0},
+    {"name":"Kento kazutowa","gameUsername":"KentoKazutowa","role":"Early Member","stars":0,"moons":0,"demons":0,"hardest":"41% Future Funk","creatorPoints":0},
+    {"name":"Supper Fish","gameUsername":"[private]","role":"Early Member","stars":1379,"moons":500,"demons":64,"hardest":"Swing","creatorPoints":1},
+    {"name":"russianman","gameUsername":"[private]","role":"Early Member","stars":723,"moons":0,"demons":8,"hardest":"strereo extremeness","creatorPoints":0},
+    {"name":"halo","gameUsername":"Jkhalogd","role":"Early Member","stars":80,"moons":0,"demons":2,"hardest":"sakupen egg","creatorPoints":0},
+    {"name":"FEMBOY","gameUsername":"SUSSYBUCAC","role":"Early Member","stars":659,"moons":99,"demons":54,"hardest":"BLOOD BATH - SONIC WAVE","creatorPoints":0},
+    {"name":"BH8B WILD","gameUsername":"BH8B","role":"Early Member","stars":1849,"moons":98,"demons":69,"hardest":"27% and 58%-100% Kuzureta","creatorPoints":0}
+  ],
+  "levels": [
+    {"rank":1,"name":"DEATH SPACE","id":"147242375","verifier":"JEF","reward":"@SPACE EMPIRE [VER 0.1]","video":"https://youtube.com/shorts/fFfzHnPCnqI"},
+    {"rank":2,"name":"DEFEATED FISH","id":"146685653","verifier":"Supper Fish","reward":"@DEAD FISH","video":"https://youtube.com/shorts/OsJZEpfvJvc"},
+    {"rank":3,"name":"RED FISH","id":"146419394","verifier":"Supperfish","reward":"@FLYING FISH","video":"https://youtube.com/shorts/QnnMgZG1HBw"},
+    {"rank":4,"name":"CORNFIELD CHASE","id":"148393443","verifier":"JEF","note":"they not bring us here to change the past","video":"https://youtu.be/A2FXWvf-fvE"},
+    {"rank":5,"name":"ROFISH BY JEF","id":"147089282","verifier":"Fish","note":"Robo trai cay","video":"https://youtube.com/shorts/NDcBP-6Zz0Q"},
+    {"rank":6,"name":"RAGANWAVE BY FISH","id":"147651904","verifier":"Jery","note":"pro wave","video":"https://youtube.com/shorts/CbusWWjAEjs"},
+    {"rank":7,"name":"WAVE SO HARD","id":"146764711","verifier":"Fish","note":"singing it LOL","video":"https://youtube.com/shorts/V2RO5E0K5e0"},
+    {"rank":8,"name":"BAD MEMORY BY BIG BRAIN","id":"146836512","verifier":"Supperfish","note":"+16 gb","video":"https://youtube.com/shorts/ohF4W8-K2Wo"},
+    {"rank":9,"name":"RED CHALLENGE BY SUSSYBUCAC","id":"146827852","verifier":"SussyBucac","video":"https://youtube.com/shorts/smk5Msz9OuI"},
+    {"rank":10,"name":"ROBOT CHALLENGE","id":"130080679","verifier":"SussyBucac","note":"beat kệ mẹ nó","video":"https://youtube.com/shorts/e67SEcUCIQY"},
+    {"rank":11,"name":"NEFFED UNKNOW BY SKIBIDIKING","id":"147045377","verifier":"Fish","video":"https://youtube.com/shorts/7fqpHM8OxDM"},
+    {"rank":12,"name":"SHIP CHALLENGE","id":"143601336","verifier":"Loupki","note":"haha x4","video":"https://youtube.com/shorts/Sq_EUa04Zm8"},
+    {"rank":13,"name":"LITTLE CHALLENGE","id":"140384773","verifier":"SussyBucac","note":"beat kệ mẹ nó x2","video":"https://youtube.com/shorts/CbusWWjAEjs?si=u6jNJdXfl-N8dJUH"}
+  ],
+  "specialLevels":[{"name":"STEREO MADNESS","type":"Main Level","reward":"@THE BEGINNING"},{"name":"FUTURE FUNK","type":"Race Event","reward":"400 mythic chest"}]
+}
